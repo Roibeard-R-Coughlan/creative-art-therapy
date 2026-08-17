@@ -71,7 +71,7 @@
                      <!-- Javascript event onkeyup used to allow only numeric values to be inserted into the tel input field, based on the suggestion found on: https://stackoverflow.com/questions/69329427/why-does-inputtype-tel-allow-non-numerical-characters-to-be-entered -->
                      <input type="tel" id="phone" name="phone" required minlength="9" maxlength="14" onkeyup="this.value = this.value.replace(/[^0-9-]/g, '');" placeholder="0812345678">
                   </div>
-               </div>
+               </div> <br>
                <!-- Fieldset for selecting the times -->
                <fieldset id="genre-radios">
                   <legend> What time of the day would suit? </legend>
@@ -83,7 +83,7 @@
                   <label for="time">6-7pm</label>
                   <input type="radio" id="ballet" name="time" value="7-8pm" required>
                   <label for="time">7-8pm</label>
-               </fieldset>
+               </fieldset> <br>
                <!-- fieldset for selecting day preferrence -->
                <fieldset id="genre-radios">
                   <legend> What day of the week would suit? </legend>
